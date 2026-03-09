@@ -12,6 +12,12 @@ namespace FireLauncher.Models
         public string SelectedProfileId { get; set; }
 
         [DataMember]
+        public string DownloadedForksRoot { get; set; }
+
+        [DataMember]
+        public string ForkCatalogRepositoryUrl { get; set; }
+
+        [DataMember]
         public bool DiscordPresenceEnabled { get; set; }
 
         [DataMember]

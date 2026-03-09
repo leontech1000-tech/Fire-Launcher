@@ -22,6 +22,9 @@ namespace FireLauncher.Models
         public int DefaultServerPort { get; set; }
 
         [DataMember]
+        public bool OnlineModeEnabled { get; set; }
+
+        [DataMember]
         public string SelectedForkId { get; set; }
 
         [DataMember]
